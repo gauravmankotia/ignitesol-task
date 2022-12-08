@@ -1,26 +1,6 @@
 Below is the TREE structure of the repo:
 
-.
-├── ./README.md
-├── ./app.js -> APIs and routing
-├── ./bin 
-│   └── ./bin/www -> code which start the express server
-├── ./data.js -> fetch data from mysql and store in json file
-├── ./data -> used for storing data in json file fetched from mysql
-├── ./db
-│   ├── ./db/mongo.js -> mongodb connection module
-│   ├── ./db/mysql.js -> mysql connection module
-│   └── ./db/schema.js -> mongo schema
-├── ./gutendex.sql -> mysql dump file received in email
-├── ./mongo_store.js -> store data fetched from mysql to mongodb
-├── ./package-lock.json
-├── ./package.json
-├── ./public
-│   ├── ./public/images
-│   ├── ./public/javascripts
-│   └── ./public/stylesheets
-│       └── ./public/stylesheets/style.css
-└── ./views
+<img width="541" alt="Screenshot 2022-12-08 at 1 59 59 PM" src="https://user-images.githubusercontent.com/71925534/206397243-e079b6ce-0880-4a32-8b61-42071679dfc2.png">
 
 I started working on the task at 9am on 6th Dec.
 As my tech stack does not include Mysql or any other RDBMS, I have never worked using it in after 2017, hence, on 6the Dec, I tried to setup MySQL server, search few free mysql hosting services, encountered many techincal issues, finally used AWS RDS micro instance, dealed with connectivity issues with DBMS, resolved them, got user privileages related errors while importing the data and finally I copied all the SQL and manually pasted in workbench editor, executed it and stored the data into mysql database named sitedb and it was done around 4PM in the evening.
@@ -37,6 +17,9 @@ node data.js 2001 3000
 node data.js 3001 4000
 node data.js 4001 5000 
 and so on ....
+
+<img width="1439" alt="mysql-data-fetch" src="https://user-images.githubusercontent.com/71925534/206397334-e63b1728-a2c8-4ea3-9748-4e34c4e19161.png">
+
 
 After around 6 hours the whole mysql database records fetching was completed and available in ./data folder.
 
