@@ -235,7 +235,17 @@ Response: {
     "next_page": null
 }
 
-You will find the project hosted at the following ip address: 
+You will find the project hosted at the following ip address: http://44.203.123.214
 Please prepend the ip address at the of the above mentioned url to test it.
+
+eg: http://44.203.123.214/search-mongo?mime=text/plain,application/json,application%2Frdf%2Bxml&author=van,mas&topic=ten&language=en&title=ten
+
+http://44.203.123.214/search-mysql?book_id=3
+
+http://44.203.123.214/search-mysql?book_id=3
+
+http://44.203.123.214/search?title=right,two&language=hn,en&topic=1783
+
+I have not installed the ssl on the server as I presently do not have any test domain for the same.
 
 Thanks & Regards.
