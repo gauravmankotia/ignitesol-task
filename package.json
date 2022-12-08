@@ -1,0 +1,22 @@
+{
+  "name": "ignitesol",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-error": "^0.0.6",
+    "http-errors": "~1.6.3",
+    "mongoose": "^6.8.0",
+    "mongoose-paginate-v2": "^1.7.1",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "through": "^2.3.8",
+    "underscore": "^1.13.6"
+  }
+}
